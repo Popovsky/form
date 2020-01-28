@@ -1,0 +1,33 @@
+label{
+    position: relative;
+    width: 100%;
+}
+
+.close::before{
+    position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f070';
+    right: 8px;
+    top: 39px;
+    size: 30px;
+}
+
+.open::before{position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f06e';
+    right: 8px;
+    top: 39px;
+    size: 30px;
+}
+
+.under{
+    font-size: 12.8px;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    background-image: none;
+}
